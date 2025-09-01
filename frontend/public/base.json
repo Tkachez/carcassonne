@@ -1,0 +1,139 @@
+{
+  "name": "base_game",
+  "tiles": [
+    {
+      "id": null,
+      "name": "trail_turn",
+      "quantity": 9,
+      "neighbours": {
+        "n": null,
+        "e": null,
+        "s": null,
+        "w": null
+      },
+      "edges": {
+        "n": "ftf",
+        "e": "ftf",
+        "s": "fff",
+        "w": "fff"
+      },
+      "content": [
+        ["f", "t", "f"],
+        ["f", "t", "t"],
+        ["f", "f", "f"]
+      ],
+      "elements": {
+        "filed": 2,
+        "trails": 1
+      }
+    },
+    {
+      "id": null,
+      "name": "trail_turn_diagonal_castle",
+      "quantity": 5,
+      "neighbours": {
+        "n": null,
+        "e": null,
+        "s": null,
+        "w": null
+      },
+      "edges": {
+        "n": "ftf",
+        "e": "ftf",
+        "s": "ccc",
+        "w": "ccc"
+      },
+      "content": [
+        ["cf", "t", "f"],
+        ["c", "cft", "t"],
+        ["c", "c", "cf"]
+      ],
+      "elements": {
+        "castle": 1,
+        "filed": 2,
+        "trail": 1
+      }
+    },
+    {
+      "id": null,
+      "name": "trail_turn_w_castle",
+      "quantity": 3,
+      "neighbours": {
+        "n": null,
+        "e": null,
+        "s": null,
+        "w": null
+      },
+      "edges": {
+        "n": "ftf",
+        "e": "ftf",
+        "s": "fff",
+        "w": "ccc"
+      },
+      "content": [
+        ["cf", "t", "f"],
+        ["c", "ft", "t"],
+        ["cf", "f", "f"]
+      ],
+      "elements": {
+        "filed": 2,
+        "trails": 1,
+        "castle": 1
+      }
+    },
+    {
+      "id": null,
+      "name": "trail_turn_s_castle",
+      "quantity": 3,
+      "neighbours": {
+        "n": null,
+        "e": null,
+        "s": null,
+        "w": null
+      },
+      "edges": {
+        "n": "ftf",
+        "e": "ftf",
+        "s": "ccc",
+        "w": "fff"
+      },
+      "content": [
+        ["f", "t", "f"],
+        ["f", "ft", "t"],
+        ["cf", "c", "cf"]
+      ],
+      "elements": {
+        "filed": 2,
+        "trails": 1,
+        "castle": 1
+      }
+    },
+    {
+      "id": null,
+      "name": "field_castle_field",
+      "quantity": 3,
+      "neighbours": {
+        "n": null,
+        "e": null,
+        "s": null,
+        "w": null
+      },
+      "edges": {
+        "n": "ccc",
+        "e": "fff",
+        "s": "ccc",
+        "w": "fff"
+      },
+      "content": [
+        ["cf", "c", "cf"],
+        ["f", "c", "f"],
+        ["cf", "c", "cf"]
+      ],
+      "elements": {
+        "filed": 2,
+        "trails": 1,
+        "castle": 1
+      }
+    }
+  ]
+}

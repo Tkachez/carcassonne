@@ -1,0 +1,5 @@
+export const CONFIG = {
+  TILE_WIDTH: 100,
+  TILE_HEIGHT: 100,
+  ROAD_WIDTH: 10
+}
