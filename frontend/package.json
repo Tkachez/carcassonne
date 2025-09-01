@@ -11,9 +11,7 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "lint": "eslint . && prettier . --check",
-    "lintfix": "eslint . --fix && prettier --write --list-different .",
-    "test": "console.log(111)",
-    "prepare": "husky"
+    "lintfix": "eslint . --fix && prettier --write --list-different ."
   },
   "dependencies": {
     "react": "^19.1.1",
