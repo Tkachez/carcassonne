@@ -8,6 +8,7 @@ type GameMenuComponentProps = {
 
 const GameMenuComponent: React.FC<GameMenuComponentProps> = ({onApprove, onCancel}) => {
     return (
+
         <div className={styles.menu__container}>
             <button onClick={onApprove}>Approve</button>
             <button onClick={onCancel}>Cancel</button>
