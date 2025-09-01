@@ -12,6 +12,7 @@
     "preview": "vite preview",
     "lint": "eslint . && prettier . --check",
     "lintfix": "eslint . --fix && prettier --write --list-different .",
+    "test": "console.log(111)",
     "prepare": "husky"
   },
   "dependencies": {
@@ -35,13 +36,9 @@
     "globals": "^16.3.0",
     "husky": "^9.1.7",
     "jiti": "^2.5.1",
-    "lint-staged": "^16.1.5",
     "prettier": "^3.6.2",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.39.1",
     "vite": "^7.1.2"
-  },
-  "lint-staged": {
-    "**/*": "eslint . --fix && prettier --write --ignore-unknown"
   }
 }
